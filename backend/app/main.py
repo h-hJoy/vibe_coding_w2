@@ -24,7 +24,7 @@ app.include_router(chat.router)
 @app.get("/")
 async def root():
     """루트 엔드포인트"""
-    return {"msg": "Chat API Server"}
+    return {"message": "Chat API Server"}
 
 
 @app.get("/health")
